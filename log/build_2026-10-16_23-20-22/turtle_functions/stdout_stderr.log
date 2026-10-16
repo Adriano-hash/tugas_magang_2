@@ -1,0 +1,10 @@
+[ 83%] Built target pentagram
+[ 83%] [32mBuilding CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o[0m
+[ 83%] Built target pose_listener
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+    8 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pentagram2.dir/build.make:76: CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pentagram2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

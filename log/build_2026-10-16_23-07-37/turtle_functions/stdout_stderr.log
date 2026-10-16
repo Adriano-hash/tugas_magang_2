@@ -1,0 +1,113 @@
+[ 66%] Built target pentagram
+[ 66%] Built target pose_listener
+[ 83%] [32mBuilding CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o[0m
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:19:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KNamaNode[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   19 |   [01;31m[KNamaNode[m[K()
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:56:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+   56 |   void pose_callback(const [01;31m[Kturtlesim[m[K::msg::Pose & msg)
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:56:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   56 |   void pose_callback(const turtlesim::msg[01;31m[K::[m[KPose & msg)
+      |                                          [01;31m[K^~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:56:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   56 |   void pose_callback[34m[K([m[Kconst turtlesim::msg[01;31m[K:[m[K[32m[K:[m[KPose & msg)
+      |                     [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+      |                                          [32m[K)[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:56:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   56 |   void pose_callback(const turtlesim::[01;31m[Kmsg[m[K::Pose & msg)
+      |                                       [01;31m[K^~~[m[K
+      |                                          [32m[K;[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:56:44:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   56 |   void pose_callback(const turtlesim::msg::[01;31m[KPose[m[K & msg)
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:66:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+   66 |   rclcpp::Subscription<[01;31m[Kturtlesim[m[K::msg::Pose>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:66:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |   rclcpp::Subscription<turtlesim::msg::Pose[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:66:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:66:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:66:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:66:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 |   rclcpp::Subscription<turtlesim::msg::Pose>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:66:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   66 |   rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                         [32m[Krmw_subscription_t[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:[m[K In member function ‘[01m[Kint PentaGram2::[01;32m[KNamaNode[m[K()[m[K’:
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:20:5:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   20 |   : [01;31m[KNode[m[K("pentagram_2")
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   30 |     [01;31m[Ksubscription_[m[K = this->create_subscription<turtlesim::msg::Pose>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+   30 |     subscription_ = this->create_subscription<[01;31m[Kturtlesim[m[K::msg::Pose>(
+      |                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   30 |     subscription_ = this->[01;31m[Kcreate_subscription<turtlesim::msg::Pose>[m[K(
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPentaGram2::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (PentaGram2::*)(...), PentaGram2*, const std::_Placeholder<1>&>::type)[m[K’
+   30 |     subscription_ = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   31 | [01;31m[K      "/turtle1/pose", 10, std::bind(&PentaGram2::pose_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:176[m[K,
+                 from [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:7[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  221 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |     subscription_ = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   31 | [01;31m[K      "/turtle1/pose", 10, std::bind(&PentaGram2::pose_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:38:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   38 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/usr/include/c++/13/bits/alloc_traits.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/ext/alloc_traits.h:34[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable_policy.h:39[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable.h:35[m[K,
+                 from [01m[K/usr/include/c++/13/bits/unordered_map.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+                 from [01m[K/usr/include/c++/13/functional:63[m[K,
+                 from [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:3[m[K:
+/usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = PentaGram2; _Args = {}][m[K[m[K’:
+[01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = PentaGram2; _Args = {}; allocator_type = std::allocator<void>][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {}; _Tp = PentaGram2; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = PentaGram2; _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = PentaGram2; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = PentaGram2][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = PentaGram2; _Args = {}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = PentaGram2][m[K[m[K’
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:74:44:[m[K   required from here
+[01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KPentaGram2::[01;32m[KPentaGram2[m[K()[m[K’
+  119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[KPentaGram2::[01;32m[KPentaGram2[m[K()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+   15 | class [01;36m[KPentaGram2[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:15:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+ 1629 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+  103 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+   91 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/pentagram2.dir/build.make:76: CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pentagram2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (turtle_functions) JobQueued: {'identifier': 'turtle_functions', 'dependencies': OrderedDict()}
+[0.000473] (turtle_functions) JobStarted: {'identifier': 'turtle_functions'}
+[0.018580] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'cmake'}
+[0.019899] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'build'}
+[0.021503] (turtle_functions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adrianohash/tugas2_ws/build/turtle_functions', '--', '-j16', '-l16'], 'cwd': '/home/adrianohash/tugas2_ws/build/turtle_functions', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adrianohash', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adrianohash', 'OLDPWD': '/home/adrianohash', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2432', 'SYSTEMD_EXEC_PID': '2955', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3671', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install:/home/adrianohash/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adrianohash', 'JOURNAL_STREAM': '10:23216', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adrianohash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adrianohash-LOQ-15ARP10E:@/tmp/.ICE-unix/2772,unix/adrianohash-LOQ-15ARP10E:/tmp/.ICE-unix/2772', 'INVOCATION_ID': '2d08a91a3e51405b93f2984bf26d5990', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install/turtle_functions:/home/adrianohash/ros2_ws/install/turtle_control:/home/adrianohash/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9dd52ddb-bd83-4b51-a351-c507d7e36082', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adrianohash/tugas2_ws/build/turtle_functions', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install/turtle_functions:/home/adrianohash/ros2_ws/install/turtle_control:/home/adrianohash/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.086559] (turtle_functions) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.098099] (-) TimerEvent: {}
+[0.198498] (-) TimerEvent: {}
+[0.298881] (-) TimerEvent: {}
+[0.399255] (-) TimerEvent: {}
+[0.499686] (-) TimerEvent: {}
+[0.589312] (turtle_functions) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.599815] (-) TimerEvent: {}
+[0.656605] (turtle_functions) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.678345] (turtle_functions) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.699983] (-) TimerEvent: {}
+[0.707490] (turtle_functions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.741144] (turtle_functions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800323] (-) TimerEvent: {}
+[0.900266] (turtle_functions) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.900633] (-) TimerEvent: {}
+[0.903663] (turtle_functions) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000815] (-) TimerEvent: {}
+[1.064796] (turtle_functions) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.100979] (-) TimerEvent: {}
+[1.201392] (-) TimerEvent: {}
+[1.247354] (turtle_functions) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.301513] (-) TimerEvent: {}
+[1.327314] (turtle_functions) StdoutLine: {'line': b'-- Found turtlesim: 1.8.4 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[1.401646] (-) TimerEvent: {}
+[1.501993] (-) TimerEvent: {}
+[1.602372] (-) TimerEvent: {}
+[1.682096] (turtle_functions) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.702580] (-) TimerEvent: {}
+[1.729284] (turtle_functions) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.745370] (turtle_functions) StdoutLine: {'line': b'-- Build files have been written to: /home/adrianohash/tugas2_ws/build/turtle_functions\n'}
+[1.802765] (-) TimerEvent: {}
+[1.833377] (turtle_functions) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o\x1b[0m\n'}
+[1.853985] (turtle_functions) StdoutLine: {'line': b'[ 83%] Built target pentagram\n'}
+[1.854323] (turtle_functions) StdoutLine: {'line': b'[ 83%] Built target pose_listener\n'}
+[1.902899] (-) TimerEvent: {}
+[2.003275] (-) TimerEvent: {}
+[2.103748] (-) TimerEvent: {}
+[2.204179] (-) TimerEvent: {}
+[2.304610] (-) TimerEvent: {}
+[2.405008] (-) TimerEvent: {}
+[2.505415] (-) TimerEvent: {}
+[2.605820] (-) TimerEvent: {}
+[2.706214] (-) TimerEvent: {}
+[2.806816] (-) TimerEvent: {}
+[2.907309] (-) TimerEvent: {}
+[3.007720] (-) TimerEvent: {}
+[3.108127] (-) TimerEvent: {}
+[3.208537] (-) TimerEvent: {}
+[3.308953] (-) TimerEvent: {}
+[3.409358] (-) TimerEvent: {}
+[3.509773] (-) TimerEvent: {}
+[3.610199] (-) TimerEvent: {}
+[3.710716] (-) TimerEvent: {}
+[3.811127] (-) TimerEvent: {}
+[3.911617] (-) TimerEvent: {}
+[4.012046] (-) TimerEvent: {}
+[4.112466] (-) TimerEvent: {}
+[4.212927] (-) TimerEvent: {}
+[4.313475] (-) TimerEvent: {}
+[4.413922] (-) TimerEvent: {}
+[4.514341] (-) TimerEvent: {}
+[4.614780] (-) TimerEvent: {}
+[4.715316] (-) TimerEvent: {}
+[4.815725] (-) TimerEvent: {}
+[4.916138] (-) TimerEvent: {}
+[5.016555] (-) TimerEvent: {}
+[5.116958] (-) TimerEvent: {}
+[5.217390] (-) TimerEvent: {}
+[5.317859] (-) TimerEvent: {}
+[5.418267] (-) TimerEvent: {}
+[5.518720] (-) TimerEvent: {}
+[5.619128] (-) TimerEvent: {}
+[5.719551] (-) TimerEvent: {}
+[5.819988] (-) TimerEvent: {}
+[5.920396] (-) TimerEvent: {}
+[6.020837] (-) TimerEvent: {}
+[6.121242] (-) TimerEvent: {}
+[6.221655] (-) TimerEvent: {}
+[6.322053] (-) TimerEvent: {}
+[6.422464] (-) TimerEvent: {}
+[6.522891] (-) TimerEvent: {}
+[6.555959] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:19:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KNamaNode\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.556359] (turtle_functions) StderrLine: {'line': b'   19 |   \x1b[01;31m\x1b[KNamaNode\x1b[m\x1b[K()\n'}
+[6.556545] (turtle_functions) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.579210] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kturtlesim\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.579972] (turtle_functions) StderrLine: {'line': b'   65 |   rclcpp::Subscription<\x1b[01;31m\x1b[Kturtlesim\x1b[m\x1b[K::msg::Pose>::SharedPtr subscription_;\n'}
+[6.580146] (turtle_functions) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.580308] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.580655] (turtle_functions) StderrLine: {'line': b'   65 |   rclcpp::Subscription<turtlesim::msg::Pose\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[6.580830] (turtle_functions) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.580976] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[6.581117] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[6.581249] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[6.581531] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.581743] (turtle_functions) StderrLine: {'line': b'   65 |   rclcpp::Subscription<turtlesim::msg::Pose>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[6.581958] (turtle_functions) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.582108] (turtle_functions) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.583935] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.584261] (turtle_functions) StderrLine: {'line': b'   65 |   rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[6.584546] (turtle_functions) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.584713] (turtle_functions) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[6.585027] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint PentaGram2::\x1b[01;32m\x1b[KNamaNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.585196] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[6.585376] (turtle_functions) StderrLine: {'line': b'   20 |   : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("pentagram_2")\n'}
+[6.585524] (turtle_functions) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.605247] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.605709] (turtle_functions) StderrLine: {'line': b'   30 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<turtlesim::msg::Pose>(\n'}
+[6.605917] (turtle_functions) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.606081] (turtle_functions) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[6.618919] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kturtlesim\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.619211] (turtle_functions) StderrLine: {'line': b'   30 |     subscription_ = this->create_subscription<\x1b[01;31m\x1b[Kturtlesim\x1b[m\x1b[K::msg::Pose>(\n'}
+[6.619466] (turtle_functions) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.619629] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[6.619767] (turtle_functions) StderrLine: {'line': b'   30 |     subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<turtlesim::msg::Pose>\x1b[m\x1b[K(\n'}
+[6.619929] (turtle_functions) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.620064] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:31:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KPentaGram2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.620196] (turtle_functions) StderrLine: {'line': b'   31 |       "/turtle1/pose", 10, std::bind(&PentaGram2::\x1b[01;31m\x1b[Kpose_callback\x1b[m\x1b[K, this, _1));\n'}
+[6.620376] (turtle_functions) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.623020] (-) TimerEvent: {}
+[6.636081] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:38:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.636424] (turtle_functions) StderrLine: {'line': b'   38 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[6.636601] (turtle_functions) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.649061] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PentaGram2::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.649355] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:45:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kactive\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kctime\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.649543] (turtle_functions) StderrLine: {'line': b'   45 |     if(\x1b[01;31m\x1b[Kactive\x1b[m\x1b[K == false) {\n'}
+[6.649687] (turtle_functions) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.649823] (turtle_functions) StderrLine: {'line': b'      |        \x1b[32m\x1b[Kctime\x1b[m\x1b[K\n'}
+[6.651840] (turtle_functions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.652115] (turtle_functions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[6.652277] (turtle_functions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175\x1b[m\x1b[K,\n'}
+[6.652490] (turtle_functions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:7\x1b[m\x1b[K:\n'}
+[6.652637] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PentaGram2::\x1b[01;32m\x1b[Ksubscriber_callback\x1b[m\x1b[K(const std_msgs::msg::String&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.652773] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:59:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct std_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.652912] (turtle_functions) StderrLine: {'line': b'   59 |       "x=%.2f  y=%.2f  theta=%.2f rad", msg.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K, msg.y, msg.theta);\n'}
+[6.653047] (turtle_functions) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.653205] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:59:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct std_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.653433] (turtle_functions) StderrLine: {'line': b'   59 |       "x=%.2f  y=%.2f  theta=%.2f rad", msg.x, msg.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K, msg.theta);\n'}
+[6.653572] (turtle_functions) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.653698] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:59:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct std_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.653842] (turtle_functions) StderrLine: {'line': b'   59 |       "x=%.2f  y=%.2f  theta=%.2f rad", msg.x, msg.y, msg.\x1b[01;31m\x1b[Ktheta\x1b[m\x1b[K);\n'}
+[6.653985] (turtle_functions) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.659937] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.660230] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:73:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNamaNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.660467] (turtle_functions) StderrLine: {'line': b'   73 |   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KNamaNode\x1b[m\x1b[K>());\n'}
+[6.660634] (turtle_functions) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.660789] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:73:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.660960] (turtle_functions) StderrLine: {'line': b'   73 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<NamaNode>()\x1b[m\x1b[K);\n'}
+[6.661120] (turtle_functions) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.661468] (turtle_functions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[6.661656] (turtle_functions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:4\x1b[m\x1b[K:\n'}
+[6.661800] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.661966] (turtle_functions) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[6.662097] (turtle_functions) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.662225] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.662415] (turtle_functions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:73:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.662547] (turtle_functions) StderrLine: {'line': b'   73 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<NamaNode>()\x1b[m\x1b[K);\n'}
+[6.662675] (turtle_functions) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.723359] (-) TimerEvent: {}
+[6.823793] (-) TimerEvent: {}
+[6.924239] (-) TimerEvent: {}
+[7.024955] (-) TimerEvent: {}
+[7.125396] (-) TimerEvent: {}
+[7.225779] (-) TimerEvent: {}
+[7.326152] (-) TimerEvent: {}
+[7.426604] (-) TimerEvent: {}
+[7.527015] (-) TimerEvent: {}
+[7.627553] (-) TimerEvent: {}
+[7.727948] (-) TimerEvent: {}
+[7.828486] (-) TimerEvent: {}
+[7.928929] (-) TimerEvent: {}
+[8.029368] (-) TimerEvent: {}
+[8.130080] (-) TimerEvent: {}
+[8.230517] (-) TimerEvent: {}
+[8.236531] (turtle_functions) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pentagram2.dir/build.make:76: CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o] Error 1\n'}
+[8.237214] (turtle_functions) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pentagram2.dir/all] Error 2\n'}
+[8.237875] (turtle_functions) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.241880] (turtle_functions) CommandEnded: {'returncode': 2}
+[8.255733] (turtle_functions) JobEnded: {'identifier': 'turtle_functions', 'rc': 2}
+[8.266741] (-) EventReactorShutdown: {}

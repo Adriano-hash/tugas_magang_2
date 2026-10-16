@@ -1,0 +1,97 @@
+[0.025s] Invoking command in '/home/adrianohash/tugas2_ws/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16
+[0.086s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.589s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.656s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.678s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.707s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.900s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.903s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.065s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.247s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.327s] -- Found turtlesim: 1.8.4 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.682s] -- Configuring done (1.6s)
+[1.729s] -- Generating done (0.0s)
+[1.745s] -- Build files have been written to: /home/adrianohash/tugas2_ws/build/turtle_functions
+[1.833s] [ 16%] [32mBuilding CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o[0m
+[1.854s] [ 83%] Built target pentagram
+[1.854s] [ 83%] Built target pose_listener
+[6.556s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:19:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KNamaNode[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.556s]    19 |   [01;31m[KNamaNode[m[K()
+[6.556s]       |   [01;31m[K^~~~~~~~[m[K
+[6.579s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[6.580s]    65 |   rclcpp::Subscription<[01;31m[Kturtlesim[m[K::msg::Pose>::SharedPtr subscription_;
+[6.580s]       |                        [01;31m[K^~~~~~~~~[m[K
+[6.580s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.580s]    65 |   rclcpp::Subscription<turtlesim::msg::Pose[01;31m[K>[m[K::SharedPtr subscription_;
+[6.580s]       |                                            [01;31m[K^[m[K
+[6.581s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[6.581s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[6.581s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[6.581s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.581s]    65 |   rclcpp::Subscription<turtlesim::msg::Pose>::[01;31m[KSharedPtr[m[K subscription_;
+[6.582s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[6.582s]       |                                                        [32m[K;[m[K
+[6.584s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:65:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[6.584s]    65 |   rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr [01;31m[Ksubscription_[m[K;
+[6.584s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.584s]       |                                                         [32m[Krmw_subscription_t[m[K
+[6.585s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:[m[K In member function ‘[01m[Kint PentaGram2::[01;32m[KNamaNode[m[K()[m[K’:
+[6.585s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:20:5:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[6.585s]    20 |   : [01;31m[KNode[m[K("pentagram_2")
+[6.585s]       |     [01;31m[K^~~~[m[K
+[6.605s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[6.605s]    30 |     [01;31m[Ksubscription_[m[K = this->create_subscription<turtlesim::msg::Pose>(
+[6.606s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.606s]       |     [32m[Krmw_subscription_t[m[K
+[6.619s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[6.619s]    30 |     subscription_ = this->create_subscription<[01;31m[Kturtlesim[m[K::msg::Pose>(
+[6.619s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[6.619s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:30:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.619s]    30 |     subscription_ = this->[01;31m[Kcreate_subscription<turtlesim::msg::Pose>[m[K(
+[6.620s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.620s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:31:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_callback[m[K’ is not a member of ‘[01m[KPentaGram2[m[K’
+[6.620s]    31 |       "/turtle1/pose", 10, std::bind(&PentaGram2::[01;31m[Kpose_callback[m[K, this, _1));
+[6.620s]       |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[6.636s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:38:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[6.636s]    38 |   [01;35m[K}[m[K
+[6.636s]       |   [01;35m[K^[m[K
+[6.649s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:[m[K In member function ‘[01m[Kvoid PentaGram2::[01;32m[Ktimer_callback[m[K()[m[K’:
+[6.649s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:45:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive[m[K’ was not declared in this scope; did you mean ‘[01m[Kctime[m[K’?
+[6.649s]    45 |     if([01;31m[Kactive[m[K == false) {
+[6.649s]       |        [01;31m[K^~~~~~[m[K
+[6.649s]       |        [32m[Kctime[m[K
+[6.652s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.652s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[6.652s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+[6.652s]                  from [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:7[m[K:
+[6.652s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:[m[K In member function ‘[01m[Kvoid PentaGram2::[01;32m[Ksubscriber_callback[m[K(const std_msgs::msg::String&)[m[K’:
+[6.652s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:59:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst std_msgs::msg::String[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+[6.652s]    59 |       "x=%.2f  y=%.2f  theta=%.2f rad", msg.[01;31m[Kx[m[K, msg.y, msg.theta);
+[6.653s]       |                                             [01;31m[K^[m[K
+[6.653s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:59:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst std_msgs::msg::String[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+[6.653s]    59 |       "x=%.2f  y=%.2f  theta=%.2f rad", msg.x, msg.[01;31m[Ky[m[K, msg.theta);
+[6.653s]       |                                                    [01;31m[K^[m[K
+[6.653s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:59:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst std_msgs::msg::String[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktheta[m[K’
+[6.653s]    59 |       "x=%.2f  y=%.2f  theta=%.2f rad", msg.x, msg.y, msg.[01;31m[Ktheta[m[K);
+[6.654s]       |                                                           [01;31m[K^~~~~[m[K
+[6.660s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.660s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:73:33:[m[K [01;31m[Kerror: [m[K‘[01m[KNamaNode[m[K’ was not declared in this scope
+[6.660s]    73 |   rclcpp::spin(std::make_shared<[01;31m[KNamaNode[m[K>());
+[6.660s]       |                                 [01;31m[K^~~~~~~~[m[K
+[6.660s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:73:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[6.661s]    73 |   rclcpp::spin([01;31m[Kstd::make_shared<NamaNode>()[m[K);
+[6.661s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.661s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[6.661s]                  from [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:4[m[K:
+[6.661s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[6.662s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[6.662s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.662s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.662s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:73:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.662s]    73 |   rclcpp::spin([01;31m[Kstd::make_shared<NamaNode>()[m[K);
+[6.662s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.236s] gmake[2]: *** [CMakeFiles/pentagram2.dir/build.make:76: CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o] Error 1
+[8.237s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pentagram2.dir/all] Error 2
+[8.237s] gmake: *** [Makefile:146: all] Error 2
+[8.242s] Invoked command in '/home/adrianohash/tugas2_ws/build/turtle_functions' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16

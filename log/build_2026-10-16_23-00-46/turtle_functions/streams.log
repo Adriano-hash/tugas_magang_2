@@ -1,0 +1,19 @@
+[0.024s] Invoking command in '/home/adrianohash/tugas2_ws/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16
+[0.087s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.597s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.669s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.913s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.265s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.345s] -- Found turtlesim: 1.8.4 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.486s] [31mCMake Error at CMakeLists.txt:21 (install):
+[1.486s]   install TARGETS given target "pentagram2" which does not exist.
+[1.486s] 
+[1.487s] [0m
+[1.693s] -- Configuring incomplete, errors occurred!
+[1.710s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[1.716s] Invoked command in '/home/adrianohash/tugas2_ws/build/turtle_functions' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16

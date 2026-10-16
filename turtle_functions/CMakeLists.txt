@@ -15,11 +15,15 @@ find_package(turtlesim REQUIRED)
 add_executable(pentagram src/pentagram.cpp)
 ament_target_dependencies(pentagram rclcpp geometry_msgs)
 
+add_executable(pentagram2 src/pentagram2.cpp)
+ament_target_dependencies(pentagram2 rclcpp geometry_msgs turtlesim)
+
 add_executable(pose_listener src/pose_listener.cpp)
 ament_target_dependencies(pose_listener rclcpp turtlesim)
 
 install(TARGETS
   pentagram
+  pentagram2
   pose_listener
   DESTINATION lib/${PROJECT_NAME})
 

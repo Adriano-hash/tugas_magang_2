@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/pentagram.dir/src/pentagram.cpp.o[0m
+[ 75%] Built target pose_listener
+[100%] [32m[1mLinking CXX executable pentagram[0m
+[100%] Built target pentagram
+-- Install configuration: ""
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pentagram
+-- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pentagram" to ""
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pose_listener
+-- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pose_listener" to ""
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/package_run_dependencies/turtle_functions
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/parent_prefix_path/turtle_functions
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.sh
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.dsv
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/path.sh
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/path.dsv
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.bash
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.sh
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.zsh
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.dsv
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/package.dsv
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/packages/turtle_functions
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig.cmake
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig-version.cmake
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/package.xml

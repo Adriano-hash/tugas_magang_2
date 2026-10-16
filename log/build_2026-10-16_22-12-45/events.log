@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000399] (turtle_functions) JobQueued: {'identifier': 'turtle_functions', 'dependencies': OrderedDict()}
+[0.000501] (turtle_functions) JobStarted: {'identifier': 'turtle_functions'}
+[0.019656] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'cmake'}
+[0.021072] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'build'}
+[0.022457] (turtle_functions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adrianohash/tugas2_ws/build/turtle_functions', '--', '-j16', '-l16'], 'cwd': '/home/adrianohash/tugas2_ws/build/turtle_functions', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adrianohash', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adrianohash', 'OLDPWD': '/home/adrianohash', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2432', 'SYSTEMD_EXEC_PID': '2955', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3671', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install:/home/adrianohash/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adrianohash', 'JOURNAL_STREAM': '10:23216', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adrianohash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adrianohash-LOQ-15ARP10E:@/tmp/.ICE-unix/2772,unix/adrianohash-LOQ-15ARP10E:/tmp/.ICE-unix/2772', 'INVOCATION_ID': '2d08a91a3e51405b93f2984bf26d5990', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install/turtle_functions:/home/adrianohash/ros2_ws/install/turtle_control:/home/adrianohash/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9dd52ddb-bd83-4b51-a351-c507d7e36082', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adrianohash/tugas2_ws/build/turtle_functions', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install/turtle_functions:/home/adrianohash/ros2_ws/install/turtle_control:/home/adrianohash/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098290] (-) TimerEvent: {}
+[0.169153] (turtle_functions) StdoutLine: {'line': b'[ 50%] Built target pose_listener\n'}
+[0.179802] (turtle_functions) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pentagram.dir/src/pentagram.cpp.o\x1b[0m\n'}
+[0.198465] (-) TimerEvent: {}
+[0.298884] (-) TimerEvent: {}
+[0.399326] (-) TimerEvent: {}
+[0.499766] (-) TimerEvent: {}
+[0.600243] (-) TimerEvent: {}
+[0.700740] (-) TimerEvent: {}
+[0.801191] (-) TimerEvent: {}
+[0.901658] (-) TimerEvent: {}
+[1.002119] (-) TimerEvent: {}
+[1.102621] (-) TimerEvent: {}
+[1.203091] (-) TimerEvent: {}
+[1.303577] (-) TimerEvent: {}
+[1.404044] (-) TimerEvent: {}
+[1.504529] (-) TimerEvent: {}
+[1.604985] (-) TimerEvent: {}
+[1.705466] (-) TimerEvent: {}
+[1.805942] (-) TimerEvent: {}
+[1.906503] (-) TimerEvent: {}
+[2.006961] (-) TimerEvent: {}
+[2.107594] (-) TimerEvent: {}
+[2.208098] (-) TimerEvent: {}
+[2.308803] (-) TimerEvent: {}
+[2.409449] (-) TimerEvent: {}
+[2.510240] (-) TimerEvent: {}
+[2.611078] (-) TimerEvent: {}
+[2.711814] (-) TimerEvent: {}
+[2.812638] (-) TimerEvent: {}
+[2.913417] (-) TimerEvent: {}
+[3.013844] (-) TimerEvent: {}
+[3.114334] (-) TimerEvent: {}
+[3.214733] (-) TimerEvent: {}
+[3.315128] (-) TimerEvent: {}
+[3.415546] (-) TimerEvent: {}
+[3.515945] (-) TimerEvent: {}
+[3.616347] (-) TimerEvent: {}
+[3.716738] (-) TimerEvent: {}
+[3.817381] (-) TimerEvent: {}
+[3.917775] (-) TimerEvent: {}
+[4.018181] (-) TimerEvent: {}
+[4.118611] (-) TimerEvent: {}
+[4.219018] (-) TimerEvent: {}
+[4.319493] (-) TimerEvent: {}
+[4.419956] (-) TimerEvent: {}
+[4.520357] (-) TimerEvent: {}
+[4.620758] (-) TimerEvent: {}
+[4.721162] (-) TimerEvent: {}
+[4.821620] (-) TimerEvent: {}
+[4.922019] (-) TimerEvent: {}
+[5.022445] (-) TimerEvent: {}
+[5.122840] (-) TimerEvent: {}
+[5.223257] (-) TimerEvent: {}
+[5.323653] (-) TimerEvent: {}
+[5.424079] (-) TimerEvent: {}
+[5.524523] (-) TimerEvent: {}
+[5.624924] (-) TimerEvent: {}
+[5.725415] (-) TimerEvent: {}
+[5.825831] (-) TimerEvent: {}
+[5.926275] (-) TimerEvent: {}
+[6.026671] (-) TimerEvent: {}
+[6.127071] (-) TimerEvent: {}
+[6.227482] (-) TimerEvent: {}
+[6.327879] (-) TimerEvent: {}
+[6.428281] (-) TimerEvent: {}
+[6.528728] (-) TimerEvent: {}
+[6.629124] (-) TimerEvent: {}
+[6.729549] (-) TimerEvent: {}
+[6.830003] (-) TimerEvent: {}
+[6.930710] (-) TimerEvent: {}
+[7.031175] (-) TimerEvent: {}
+[7.131601] (-) TimerEvent: {}
+[7.232000] (-) TimerEvent: {}
+[7.332426] (-) TimerEvent: {}
+[7.432811] (-) TimerEvent: {}
+[7.533217] (-) TimerEvent: {}
+[7.633599] (-) TimerEvent: {}
+[7.733994] (-) TimerEvent: {}
+[7.834426] (-) TimerEvent: {}
+[7.934883] (-) TimerEvent: {}
+[8.035300] (-) TimerEvent: {}
+[8.135706] (-) TimerEvent: {}
+[8.236091] (-) TimerEvent: {}
+[8.336571] (-) TimerEvent: {}
+[8.436957] (-) TimerEvent: {}
+[8.537412] (-) TimerEvent: {}
+[8.637841] (-) TimerEvent: {}
+[8.738294] (-) TimerEvent: {}
+[8.838678] (-) TimerEvent: {}
+[8.939040] (-) TimerEvent: {}
+[9.019219] (turtle_functions) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pentagram\x1b[0m\n'}
+[9.039184] (-) TimerEvent: {}
+[9.139592] (-) TimerEvent: {}
+[9.239994] (-) TimerEvent: {}
+[9.254138] (turtle_functions) StdoutLine: {'line': b'[100%] Built target pentagram\n'}
+[9.271359] (turtle_functions) CommandEnded: {'returncode': 0}
+[9.272041] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'install'}
+[9.285687] (turtle_functions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adrianohash/tugas2_ws/build/turtle_functions'], 'cwd': '/home/adrianohash/tugas2_ws/build/turtle_functions', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adrianohash', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adrianohash', 'OLDPWD': '/home/adrianohash', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2432', 'SYSTEMD_EXEC_PID': '2955', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3671', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install:/home/adrianohash/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adrianohash', 'JOURNAL_STREAM': '10:23216', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adrianohash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adrianohash-LOQ-15ARP10E:@/tmp/.ICE-unix/2772,unix/adrianohash-LOQ-15ARP10E:/tmp/.ICE-unix/2772', 'INVOCATION_ID': '2d08a91a3e51405b93f2984bf26d5990', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install/turtle_functions:/home/adrianohash/ros2_ws/install/turtle_control:/home/adrianohash/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9dd52ddb-bd83-4b51-a351-c507d7e36082', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adrianohash/tugas2_ws/build/turtle_functions', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adrianohash/tugas2_ws/install/turtle_functions:/home/adrianohash/ros2_ws/install/turtle_control:/home/adrianohash/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.297156] (turtle_functions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.297482] (turtle_functions) StdoutLine: {'line': b'-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pentagram\n'}
+[9.299141] (turtle_functions) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pentagram" to ""\n'}
+[9.299471] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pose_listener\n'}
+[9.299875] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/package_run_dependencies/turtle_functions\n'}
+[9.300363] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/parent_prefix_path/turtle_functions\n'}
+[9.300555] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.sh\n'}
+[9.300711] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.dsv\n'}
+[9.300797] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/path.sh\n'}
+[9.300880] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/path.dsv\n'}
+[9.300961] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.bash\n'}
+[9.301054] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.sh\n'}
+[9.301137] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.zsh\n'}
+[9.301243] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.dsv\n'}
+[9.301340] (turtle_functions) StdoutLine: {'line': b'-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/package.dsv\n'}
+[9.301539] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/packages/turtle_functions\n'}
+[9.301665] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig.cmake\n'}
+[9.301753] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig-version.cmake\n'}
+[9.301829] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/package.xml\n'}
+[9.303063] (turtle_functions) CommandEnded: {'returncode': 0}
+[9.320969] (turtle_functions) JobEnded: {'identifier': 'turtle_functions', 'rc': 0}
+[9.322361] (-) EventReactorShutdown: {}

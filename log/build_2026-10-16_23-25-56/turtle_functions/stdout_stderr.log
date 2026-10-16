@@ -1,0 +1,25 @@
+[ 66%] Built target pentagram
+[ 66%] Built target pose_listener
+[ 83%] [32mBuilding CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pentagram2[0m
+[100%] Built target pentagram2
+-- Install configuration: ""
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pentagram
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pentagram2
+-- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pentagram2" to ""
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/lib/turtle_functions/pose_listener
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/package_run_dependencies/turtle_functions
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/parent_prefix_path/turtle_functions
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/path.sh
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/environment/path.dsv
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.bash
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.sh
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.zsh
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/local_setup.dsv
+-- Installing: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/package.dsv
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/ament_index/resource_index/packages/turtle_functions
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig.cmake
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig-version.cmake
+-- Up-to-date: /home/adrianohash/tugas2_ws/install/turtle_functions/share/turtle_functions/package.xml

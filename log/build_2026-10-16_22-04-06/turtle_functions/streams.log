@@ -1,0 +1,87 @@
+[0.026s] Invoking command in '/home/adrianohash/tugas2_ws/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adrianohash/tugas2_ws/turtle_functions -DCMAKE_INSTALL_PREFIX=/home/adrianohash/tugas2_ws/install/turtle_functions
+[0.191s] -- The C compiler identification is GNU 13.3.0
+[0.346s] -- The CXX compiler identification is GNU 13.3.0
+[0.393s] -- Detecting C compiler ABI info
+[0.613s] -- Detecting C compiler ABI info - done
+[0.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.639s] -- Detecting C compile features
+[0.640s] -- Detecting C compile features - done
+[0.664s] -- Detecting CXX compiler ABI info
+[0.906s] -- Detecting CXX compiler ABI info - done
+[0.929s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.930s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.945s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.299s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.580s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.706s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.746s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.083s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.093s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.318s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.367s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.426s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.661s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.762s] -- Found turtlesim: 1.8.4 (/opt/ros/jazzy/share/turtlesim/cmake)
+[3.137s] -- Configuring done (3.1s)
+[3.174s] -- Generating done (0.0s)
+[3.186s] -- Build files have been written to: /home/adrianohash/tugas2_ws/build/turtle_functions
+[3.207s] Invoked command in '/home/adrianohash/tugas2_ws/build/turtle_functions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adrianohash/tugas2_ws/turtle_functions -DCMAKE_INSTALL_PREFIX=/home/adrianohash/tugas2_ws/install/turtle_functions
+[3.211s] Invoking command in '/home/adrianohash/tugas2_ws/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16
+[3.332s] [ 50%] [32mBuilding CXX object CMakeFiles/pentagram.dir/src/pentagram.cpp.o[0m
+[3.332s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_listener.dir/src/pose_listener.cpp.o[0m
+[8.121s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:53:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[8.121s]    53 |   rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[8.121s]       |                     [01;31m[K^~~~~~~~[m[K
+[8.122s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:53:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.122s]    53 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[8.122s]       |                                          [01;31m[K^[m[K
+[8.122s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:53:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.122s]    53 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[8.122s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[8.122s]       |                                                      [32m[K;[m[K
+[8.125s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:53:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[8.125s]    53 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[8.125s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[8.126s]       |                                                       [32m[Krmw_publisher_t[m[K
+[8.143s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:[m[K In constructor ‘[01m[KPentaGram::[01;32m[KPentaGram[m[K()[m[K’:
+[8.143s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[8.143s]    26 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("/turtle1/pose", 10);
+[8.144s]       |     [01;31m[K^~~~~~~~~~[m[K
+[8.144s]       |     [32m[Krmw_publisher_t[m[K
+[8.156s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:26:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[8.157s]    26 |     publisher_ = this->create_publisher<[01;31m[Kstd_msgs[m[K::msg::String>("/turtle1/pose", 10);
+[8.157s]       |                                         [01;31m[K^~~~~~~~[m[K
+[8.157s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:26:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[8.157s]    26 |     publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::String>[m[K("/turtle1/pose", 10);
+[8.157s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.157s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:26:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPentaGram::create_publisher<<expression error> >(const char [14], int)[m[K’
+[8.158s]    26 |   publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("/turtle1/pose", 10)[m[K;
+[8.158s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.158s] 
+[8.158s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.158s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.158s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:176[m[K,
+[8.158s]                  from [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:8[m[K:
+[8.159s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[8.159s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[8.159s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.159s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.159s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:26:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.159s]    26 |   publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("/turtle1/pose", 10)[m[K;
+[8.159s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.159s] 
+[8.188s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:[m[K In member function ‘[01m[Kvoid PentaGram::[01;32m[Ktimer_callback[m[K()[m[K’:
+[8.189s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[8.189s]    48 |     [01;31m[Kpublisher_[m[K->publish(msg);
+[8.189s]       |     [01;31m[K^~~~~~~~~~[m[K
+[8.190s]       |     [32m[Krmw_publisher_t[m[K
+[9.376s] gmake[2]: *** [CMakeFiles/pentagram.dir/build.make:76: CMakeFiles/pentagram.dir/src/pentagram.cpp.o] Error 1
+[9.377s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/pentagram.dir/all] Error 2
+[9.377s] gmake[1]: *** Waiting for unfinished jobs....
+[12.804s] [ 75%] [32m[1mLinking CXX executable pose_listener[0m
+[13.027s] [ 75%] Built target pose_listener
+[13.028s] gmake: *** [Makefile:146: all] Error 2
+[13.031s] Invoked command in '/home/adrianohash/tugas2_ws/build/turtle_functions' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16
