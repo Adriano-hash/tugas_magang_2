@@ -13,4 +13,4 @@ Di bagian source code terdapat 3 file .cpp
    mengubah kecepatan putaran di turtlesim.
 
 link video penjelasan : https://youtu.be/M4smsLM7eGU
-
+Link repo github: https://github.com/Adriano-hash/tugas_magang_2/tree/main
