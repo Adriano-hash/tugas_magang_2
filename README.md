@@ -12,5 +12,5 @@ Di bagian source code terdapat 3 file .cpp
    meski dengan pergerakan yang lebih lambat. pentagram2.cpp juga disertai parameter size untuk mengatur ukuran gambar dan angular_scalar untuk
    mengubah kecepatan putaran di turtlesim.
 
-link video penjelasan : 
+link video penjelasan : https://youtu.be/M4smsLM7eGU
 
