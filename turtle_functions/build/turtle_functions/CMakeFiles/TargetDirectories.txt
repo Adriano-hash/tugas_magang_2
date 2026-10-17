@@ -1,0 +1,12 @@
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/uninstall.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/turtle_functions_uninstall.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/pentagram.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/pentagram2.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/pose_listener.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/test.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/edit_cache.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/rebuild_cache.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/list_install_components.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/install.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/install/local.dir
+/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions/CMakeFiles/install/strip.dir

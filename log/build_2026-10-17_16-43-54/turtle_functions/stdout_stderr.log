@@ -1,0 +1,10 @@
+[ 33%] Built target pentagram
+[ 50%] [32mBuilding CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o[0m
+[ 83%] Built target pose_listener
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:[m[K In constructor ‘[01m[KPentaGram2::[01;32m[KPentaGram2[m[K()[m[K’:
+[01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscalar_[m[K’ was not declared in this scope
+   20 |     [01;31m[Kscalar_[m[K = this->get_parameter("size").as_double();
+      |     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pentagram2.dir/build.make:76: CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pentagram2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

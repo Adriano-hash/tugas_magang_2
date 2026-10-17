@@ -1,0 +1,66 @@
+[0.014s] Invoking command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adrianohash/tugas2_ws/turtle_functions -DCMAKE_INSTALL_PREFIX=/home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions
+[0.129s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.252s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.428s] -- Detecting CXX compiler ABI info
+[0.590s] -- Detecting CXX compiler ABI info - done
+[0.605s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.606s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.615s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.854s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.044s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.119s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.144s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.362s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.368s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.519s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.554s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.745s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.811s] -- Found turtlesim: 1.8.4 (/opt/ros/jazzy/share/turtlesim/cmake)
+[2.075s] -- Configuring done (2.0s)
+[2.107s] -- Generating done (0.0s)
+[2.118s] -- Build files have been written to: /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions
+[2.136s] Invoked command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adrianohash/tugas2_ws/turtle_functions -DCMAKE_INSTALL_PREFIX=/home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions
+[2.138s] Invoking command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions -- -j16 -l16
+[2.224s] [ 50%] Building CXX object CMakeFiles/pose_listener.dir/src/pose_listener.cpp.o
+[2.224s] [ 50%] Building CXX object CMakeFiles/pentagram.dir/src/pentagram.cpp.o
+[2.224s] [ 50%] Building CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o
+[9.115s] [ 66%] Linking CXX executable pentagram
+[9.340s] [ 66%] Built target pentagram
+[11.803s] [ 83%] Linking CXX executable pose_listener
+[12.136s] [ 83%] Built target pose_listener
+[12.641s] [100%] Linking CXX executable pentagram2
+[12.987s] [100%] Built target pentagram2
+[13.000s] Invoked command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions -- -j16 -l16
+[13.010s] Invoking command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions
+[13.018s] -- Install configuration: ""
+[13.018s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram
+[13.019s] -- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram" to ""
+[13.019s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram2
+[13.023s] -- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram2" to ""
+[13.024s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pose_listener
+[13.028s] -- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pose_listener" to ""
+[13.028s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/package_run_dependencies/turtle_functions
+[13.028s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/parent_prefix_path/turtle_functions
+[13.028s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.sh
+[13.028s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.dsv
+[13.029s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/path.sh
+[13.029s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/path.dsv
+[13.029s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.bash
+[13.029s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.sh
+[13.029s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.zsh
+[13.029s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.dsv
+[13.029s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/package.dsv
+[13.030s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/packages/turtle_functions
+[13.030s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig.cmake
+[13.030s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig-version.cmake
+[13.030s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/package.xml
+[13.031s] Invoked command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions

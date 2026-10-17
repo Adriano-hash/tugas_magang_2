@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/adrianohash/tugas2_ws/build/turtle_functions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16
+[0.127s] [ 33%] Built target pentagram
+[0.129s] [ 66%] Built target pose_listener
+[0.155s] [ 83%] [32mBuilding CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o[0m
+[4.894s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:[m[K In constructor ‘[01m[KPentaGram2::[01;32m[KPentaGram2[m[K()[m[K’:
+[4.894s] [01m[K/home/adrianohash/tugas2_ws/turtle_functions/src/pentagram2.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscalar_[m[K’ was not declared in this scope
+[4.894s]    20 |     [01;31m[Kscalar_[m[K = this->get_parameter("scalar").as_double();
+[4.895s]       |     [01;31m[K^~~~~~~[m[K
+[9.316s] gmake[2]: *** [CMakeFiles/pentagram2.dir/build.make:76: CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o] Error 1
+[9.316s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pentagram2.dir/all] Error 2
+[9.317s] gmake: *** [Makefile:146: all] Error 2
+[9.321s] Invoked command in '/home/adrianohash/tugas2_ws/build/turtle_functions' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/build/turtle_functions -- -j16 -l16

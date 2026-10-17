@@ -39,7 +39,7 @@ private:
   {
     geometry_msgs::msg::Twist msg;
     if(active == false) {
-      msg.angular.z = -2.51;
+      msg.angular.z = -2.5125;
       active = true;
     } else {
       msg.linear.x = 1.0 * scalar_;
