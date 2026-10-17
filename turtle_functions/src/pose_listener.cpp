@@ -19,7 +19,6 @@ public:
 private:
   void pose_callback(const turtlesim::msg::Pose & msg)
   {
-    // Turtlesim mem-publish pose sekitar 60 kali/detik, jadi dibatasi 1 log per detik.
     RCLCPP_INFO_THROTTLE(
       this->get_logger(), *this->get_clock(), 1000,
       "x=%.2f  y=%.2f  theta=%.2f rad", msg.x, msg.y, msg.theta);
