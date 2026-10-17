@@ -50,8 +50,9 @@ private:
   static constexpr double target_side_length_ = 1.0;
   static constexpr double max_angular_speed_ = 1.2;
   static constexpr double turn_gain_ = 3.0;
-  static constexpr double turn_tolerance_ = 0.01;
+  static constexpr double turn_tolerance_ = 0.005;
   static constexpr double minimum_turn_speed_ = 0.10;
+  static constexpr double control_period_seconds_ = 0.05;
 
   void pose_callback(const turtlesim::msg::Pose & msg)
   {
@@ -108,9 +109,12 @@ private:
         const double remaining_angle = target_turn_ - angle_turned;
         const double requested_speed = turn_gain_ * remaining_angle;
         const double maximum_speed = max_angular_speed_ * angular_scalar_;
-        const double turn_speed = std::min(
+        const double speed_before_final_step = std::min(
           std::max(requested_speed, minimum_turn_speed_),
           maximum_speed);
+        const double turn_speed = std::min(
+          speed_before_final_step,
+          remaining_angle / control_period_seconds_);
         command.angular.z = -turn_speed;
       } else {
         state_ = MotionState::MOVING;
@@ -121,7 +125,10 @@ private:
         current_pose_, state_start_pose_);
 
       if (distance_moved < target_side_length_*size_) {
-        command.linear.x = size_;
+        const double remaining_distance = target_side_length_ * size_ - distance_moved;
+        command.linear.x = std::min(
+          size_,
+          remaining_distance / control_period_seconds_);
       } else {
         state_ = MotionState::TURNING;
         state_start_pose_ = current_pose_;
