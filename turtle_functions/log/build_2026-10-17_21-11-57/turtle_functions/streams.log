@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions -- -j16 -l16
+[0.140s] [ 33%] Built target pentagram
+[0.140s] [ 66%] Built target pose_listener
+[0.162s] [ 83%] Building CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o
+[12.175s] [100%] Linking CXX executable pentagram2
+[12.768s] [100%] Built target pentagram2
+[12.789s] Invoked command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions -- -j16 -l16
+[12.807s] Invoking command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions
+[12.821s] -- Install configuration: ""
+[12.822s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram
+[12.823s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram2
+[12.833s] -- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram2" to ""
+[12.833s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pose_listener
+[12.834s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/package_run_dependencies/turtle_functions
+[12.834s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/parent_prefix_path/turtle_functions
+[12.834s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.sh
+[12.835s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.dsv
+[12.835s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/path.sh
+[12.835s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/path.dsv
+[12.835s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.bash
+[12.835s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.sh
+[12.835s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.zsh
+[12.835s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.dsv
+[12.835s] -- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/package.dsv
+[12.836s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/packages/turtle_functions
+[12.836s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig.cmake
+[12.836s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig-version.cmake
+[12.836s] -- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/package.xml
+[12.838s] Invoked command in '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions

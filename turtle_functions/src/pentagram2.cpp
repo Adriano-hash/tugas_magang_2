@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <chrono>
 #include <cmath>
 #include <functional>
@@ -47,7 +48,10 @@ private:
   static constexpr double pi_ = 3.14159265358979323846;
   static constexpr double target_turn_ = 4.0 * pi_ / 5.0;
   static constexpr double target_side_length_ = 1.0;
-  static constexpr double angular_speed_ = -1.2;
+  static constexpr double max_angular_speed_ = 1.2;
+  static constexpr double turn_gain_ = 3.0;
+  static constexpr double turn_tolerance_ = 0.01;
+  static constexpr double minimum_turn_speed_ = 0.10;
 
   void pose_callback(const turtlesim::msg::Pose & msg)
   {
@@ -100,8 +104,14 @@ private:
         current_pose_.theta - state_start_pose_.theta);
       const double angle_turned = std::fabs(angle_difference);
 
-      if (angle_turned < target_turn_) {
-        command.angular.z = angular_speed_ * angular_scalar_;
+      if (angle_turned + turn_tolerance_ < target_turn_) {
+        const double remaining_angle = target_turn_ - angle_turned;
+        const double requested_speed = turn_gain_ * remaining_angle;
+        const double maximum_speed = max_angular_speed_ * angular_scalar_;
+        const double turn_speed = std::min(
+          std::max(requested_speed, minimum_turn_speed_),
+          maximum_speed);
+        command.angular.z = -turn_speed;
       } else {
         state_ = MotionState::MOVING;
         state_start_pose_ = current_pose_;

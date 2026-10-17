@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000943] (turtle_functions) JobQueued: {'identifier': 'turtle_functions', 'dependencies': OrderedDict()}
+[0.001448] (turtle_functions) JobStarted: {'identifier': 'turtle_functions'}
+[0.015007] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'cmake'}
+[0.016656] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'build'}
+[0.017552] (turtle_functions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions', '--', '-j16', '-l16'], 'cwd': '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'adrianohash', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '', 'SHLVL': '1', 'HOME': '/home/adrianohash', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'GIT_CONFIG_COUNT': '3', 'OLDPWD': '/home/adrianohash/tugas2_ws', 'DESKTOP_SESSION': 'ubuntu', 'COPILOT_CLI_RUN_AS_NODE': '1', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2399', 'COPILOT_CLI': '1', 'SYSTEMD_EXEC_PID': '2945', 'USE_TGREP': 'false', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'USE_BUILTIN_RIPGREP': 'false', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3748', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'COPILOT_HOME': '/home/adrianohash/.copilot', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'LOGNAME': 'adrianohash', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '10:21620', 'SKILL_CHAR_BUDGET': '30000', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adrianohash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64', 'SESSION_MANAGER': 'local/adrianohash-LOQ-15ARP10E:@/tmp/.ICE-unix/2753,unix/adrianohash-LOQ-15ARP10E:/tmp/.ICE-unix/2753', 'INVOCATION_ID': 'c6a3751aa17f49059b59de61a470f940', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'XDG_MENU_PREFIX': 'gnome-', 'GIT_CONFIG_VALUE_2': 'false', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'COPILOT_AGENT_SESSION_ID': '8e4a0cea-1af5-4e76-9662-efff8c219fe1', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9a6174bf-3da7-4373-91a6-b04dfae2bc31', 'COPILOT_RUNTIME_PROCESS_FILE_LOGGING': '1', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'COPILOT_MCP_APPS': 'true', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions', 'AUTO_APPROVAL': 'true', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.099455] (-) TimerEvent: {}
+[0.140571] (turtle_functions) StdoutLine: {'line': b'[ 33%] Built target pentagram\n'}
+[0.141173] (turtle_functions) StdoutLine: {'line': b'[ 66%] Built target pose_listener\n'}
+[0.162873] (turtle_functions) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/pentagram2.dir/src/pentagram2.cpp.o\n'}
+[0.199617] (-) TimerEvent: {}
+[0.299924] (-) TimerEvent: {}
+[0.400223] (-) TimerEvent: {}
+[0.500434] (-) TimerEvent: {}
+[0.600686] (-) TimerEvent: {}
+[0.701073] (-) TimerEvent: {}
+[0.801413] (-) TimerEvent: {}
+[0.901691] (-) TimerEvent: {}
+[1.001950] (-) TimerEvent: {}
+[1.102301] (-) TimerEvent: {}
+[1.202590] (-) TimerEvent: {}
+[1.302811] (-) TimerEvent: {}
+[1.403071] (-) TimerEvent: {}
+[1.503294] (-) TimerEvent: {}
+[1.603502] (-) TimerEvent: {}
+[1.703834] (-) TimerEvent: {}
+[1.804177] (-) TimerEvent: {}
+[1.904413] (-) TimerEvent: {}
+[2.004767] (-) TimerEvent: {}
+[2.105114] (-) TimerEvent: {}
+[2.205344] (-) TimerEvent: {}
+[2.305599] (-) TimerEvent: {}
+[2.405804] (-) TimerEvent: {}
+[2.505996] (-) TimerEvent: {}
+[2.606242] (-) TimerEvent: {}
+[2.706510] (-) TimerEvent: {}
+[2.806774] (-) TimerEvent: {}
+[2.907030] (-) TimerEvent: {}
+[3.007497] (-) TimerEvent: {}
+[3.107735] (-) TimerEvent: {}
+[3.207955] (-) TimerEvent: {}
+[3.308152] (-) TimerEvent: {}
+[3.408479] (-) TimerEvent: {}
+[3.508812] (-) TimerEvent: {}
+[3.609039] (-) TimerEvent: {}
+[3.709383] (-) TimerEvent: {}
+[3.809747] (-) TimerEvent: {}
+[3.910007] (-) TimerEvent: {}
+[4.010246] (-) TimerEvent: {}
+[4.110551] (-) TimerEvent: {}
+[4.210841] (-) TimerEvent: {}
+[4.311294] (-) TimerEvent: {}
+[4.411574] (-) TimerEvent: {}
+[4.511796] (-) TimerEvent: {}
+[4.612059] (-) TimerEvent: {}
+[4.712300] (-) TimerEvent: {}
+[4.812508] (-) TimerEvent: {}
+[4.912854] (-) TimerEvent: {}
+[5.013116] (-) TimerEvent: {}
+[5.113476] (-) TimerEvent: {}
+[5.213755] (-) TimerEvent: {}
+[5.314109] (-) TimerEvent: {}
+[5.414343] (-) TimerEvent: {}
+[5.514597] (-) TimerEvent: {}
+[5.614887] (-) TimerEvent: {}
+[5.715142] (-) TimerEvent: {}
+[5.815424] (-) TimerEvent: {}
+[5.915651] (-) TimerEvent: {}
+[6.015877] (-) TimerEvent: {}
+[6.116232] (-) TimerEvent: {}
+[6.216651] (-) TimerEvent: {}
+[6.316912] (-) TimerEvent: {}
+[6.417132] (-) TimerEvent: {}
+[6.517381] (-) TimerEvent: {}
+[6.617647] (-) TimerEvent: {}
+[6.717866] (-) TimerEvent: {}
+[6.818129] (-) TimerEvent: {}
+[6.918380] (-) TimerEvent: {}
+[7.018631] (-) TimerEvent: {}
+[7.118983] (-) TimerEvent: {}
+[7.219232] (-) TimerEvent: {}
+[7.319438] (-) TimerEvent: {}
+[7.419662] (-) TimerEvent: {}
+[7.520046] (-) TimerEvent: {}
+[7.620289] (-) TimerEvent: {}
+[7.720494] (-) TimerEvent: {}
+[7.820729] (-) TimerEvent: {}
+[7.920961] (-) TimerEvent: {}
+[8.021277] (-) TimerEvent: {}
+[8.121491] (-) TimerEvent: {}
+[8.221751] (-) TimerEvent: {}
+[8.322132] (-) TimerEvent: {}
+[8.422444] (-) TimerEvent: {}
+[8.522650] (-) TimerEvent: {}
+[8.622851] (-) TimerEvent: {}
+[8.723050] (-) TimerEvent: {}
+[8.823250] (-) TimerEvent: {}
+[8.923432] (-) TimerEvent: {}
+[9.023843] (-) TimerEvent: {}
+[9.124308] (-) TimerEvent: {}
+[9.224483] (-) TimerEvent: {}
+[9.324749] (-) TimerEvent: {}
+[9.424963] (-) TimerEvent: {}
+[9.525312] (-) TimerEvent: {}
+[9.625928] (-) TimerEvent: {}
+[9.726161] (-) TimerEvent: {}
+[9.826546] (-) TimerEvent: {}
+[9.926838] (-) TimerEvent: {}
+[10.027216] (-) TimerEvent: {}
+[10.127601] (-) TimerEvent: {}
+[10.227931] (-) TimerEvent: {}
+[10.328454] (-) TimerEvent: {}
+[10.428873] (-) TimerEvent: {}
+[10.529236] (-) TimerEvent: {}
+[10.629525] (-) TimerEvent: {}
+[10.729765] (-) TimerEvent: {}
+[10.830190] (-) TimerEvent: {}
+[10.930576] (-) TimerEvent: {}
+[11.030870] (-) TimerEvent: {}
+[11.131235] (-) TimerEvent: {}
+[11.231769] (-) TimerEvent: {}
+[11.332044] (-) TimerEvent: {}
+[11.432381] (-) TimerEvent: {}
+[11.532629] (-) TimerEvent: {}
+[11.632851] (-) TimerEvent: {}
+[11.733188] (-) TimerEvent: {}
+[11.833567] (-) TimerEvent: {}
+[11.933829] (-) TimerEvent: {}
+[12.034176] (-) TimerEvent: {}
+[12.134425] (-) TimerEvent: {}
+[12.176171] (turtle_functions) StdoutLine: {'line': b'[100%] Linking CXX executable pentagram2\n'}
+[12.234616] (-) TimerEvent: {}
+[12.334927] (-) TimerEvent: {}
+[12.435433] (-) TimerEvent: {}
+[12.535924] (-) TimerEvent: {}
+[12.636243] (-) TimerEvent: {}
+[12.736478] (-) TimerEvent: {}
+[12.768985] (turtle_functions) StdoutLine: {'line': b'[100%] Built target pentagram2\n'}
+[12.790546] (turtle_functions) CommandEnded: {'returncode': 0}
+[12.792182] (turtle_functions) JobProgress: {'identifier': 'turtle_functions', 'progress': 'install'}
+[12.807499] (turtle_functions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions'], 'cwd': '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'adrianohash', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '', 'SHLVL': '1', 'HOME': '/home/adrianohash', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'GIT_CONFIG_COUNT': '3', 'OLDPWD': '/home/adrianohash/tugas2_ws', 'DESKTOP_SESSION': 'ubuntu', 'COPILOT_CLI_RUN_AS_NODE': '1', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2399', 'COPILOT_CLI': '1', 'SYSTEMD_EXEC_PID': '2945', 'USE_TGREP': 'false', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'USE_BUILTIN_RIPGREP': 'false', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3748', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'COPILOT_HOME': '/home/adrianohash/.copilot', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'LOGNAME': 'adrianohash', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '10:21620', 'SKILL_CHAR_BUDGET': '30000', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adrianohash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64', 'SESSION_MANAGER': 'local/adrianohash-LOQ-15ARP10E:@/tmp/.ICE-unix/2753,unix/adrianohash-LOQ-15ARP10E:/tmp/.ICE-unix/2753', 'INVOCATION_ID': 'c6a3751aa17f49059b59de61a470f940', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'XDG_MENU_PREFIX': 'gnome-', 'GIT_CONFIG_VALUE_2': 'false', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'COPILOT_AGENT_SESSION_ID': '8e4a0cea-1af5-4e76-9662-efff8c219fe1', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9a6174bf-3da7-4373-91a6-b04dfae2bc31', 'COPILOT_RUNTIME_PROCESS_FILE_LOGGING': '1', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'COPILOT_MCP_APPS': 'true', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adrianohash/tugas2_ws/turtle_functions/build/turtle_functions', 'AUTO_APPROVAL': 'true', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[12.822247] (turtle_functions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.823065] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram\n'}
+[12.824408] (turtle_functions) StdoutLine: {'line': b'-- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram2\n'}
+[12.834048] (turtle_functions) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pentagram2" to ""\n'}
+[12.834767] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/lib/turtle_functions/pose_listener\n'}
+[12.835166] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/package_run_dependencies/turtle_functions\n'}
+[12.835664] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/parent_prefix_path/turtle_functions\n'}
+[12.835799] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.sh\n'}
+[12.835897] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/ament_prefix_path.dsv\n'}
+[12.836108] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/path.sh\n'}
+[12.836210] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/environment/path.dsv\n'}
+[12.836307] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.bash\n'}
+[12.836525] (-) TimerEvent: {}
+[12.836549] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.sh\n'}
+[12.836648] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.zsh\n'}
+[12.836741] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/local_setup.dsv\n'}
+[12.836842] (turtle_functions) StdoutLine: {'line': b'-- Installing: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/package.dsv\n'}
+[12.836933] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/ament_index/resource_index/packages/turtle_functions\n'}
+[12.837038] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig.cmake\n'}
+[12.837142] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/cmake/turtle_functionsConfig-version.cmake\n'}
+[12.837248] (turtle_functions) StdoutLine: {'line': b'-- Up-to-date: /home/adrianohash/tugas2_ws/turtle_functions/install/turtle_functions/share/turtle_functions/package.xml\n'}
+[12.839009] (turtle_functions) CommandEnded: {'returncode': 0}
+[12.863363] (turtle_functions) JobEnded: {'identifier': 'turtle_functions', 'rc': 0}
+[12.864935] (-) EventReactorShutdown: {}
